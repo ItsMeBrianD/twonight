@@ -1,0 +1,33 @@
+form.form {
+	@apply flex flex-col gap-2;
+	label {
+		@apply flex flex-col justify-start gap-1;
+
+		span {
+			@apply block pl-2 text-left text-xs font-bold uppercase;
+		}
+		span.error {
+			@apply text-right font-normal text-danger;
+		}
+
+		input {
+			@apply block border-b border-black px-2 py-1;
+		}
+	}
+	footer {
+		@apply mt-8 flex flex-col gap-2;
+	}
+	button {
+		@apply w-full bg-black px-2 py-1 text-white;
+	}
+
+	span.message {
+		@apply text-center font-normal;
+		&.success {
+			@apply text-success;
+		}
+		&.error {
+			@apply text-danger;
+		}
+	}
+}

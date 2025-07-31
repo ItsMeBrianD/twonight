@@ -1,0 +1,40 @@
+@theme inline {
+	--color-*: initial;
+
+	--color-black: black;
+	--color-white: white;
+
+	--color-border-success: hsl(145, 62%, 66%);
+	--color-success: hsl(145, 62%, 36%);
+	--color-on-success: hsl(145, 62%, 95%);
+
+	--color-border-warning: hsl(44, 100%, 66%);
+	--color-warning: hsl(44, 100%, 40%);
+	--color-on-warning: hsl(44, 100%, 95%);
+
+	--color-border-danger: hsl(5, 82%, 66%);
+	--color-danger: hsl(5, 82%, 45%);
+	--color-on-danger: hsl(5, 82%, 96%);
+
+	--color-border-info: hsl(200, 62%, 66%);
+	--color-info: hsl(200, 62%, 38%);
+	--color-on-info: hsl(200, 62%, 95%);
+
+	--color-base-lighter: hsl(223, 12%, 66%);
+	--color-base-light: hsl(223, 12%, 52%);
+	--color-base: hsl(223, 12%, 34%);
+	--color-base-dark: hsl(223, 12%, 20%);
+	--color-base-darker: hsl(223, 12%, 10%);
+
+	--color-on-base-lighter: hsl(0, 0%, 10%);
+	--color-on-base-light: hsl(0, 0%, 10%);
+	--color-on-base: hsl(0, 0%, 95%);
+	--color-on-base-dark: hsl(0, 0%, 95%);
+	--color-on-base-darker: hsl(0, 0%, 98%);
+
+	--color-border-base-lighter: hsl(223, 12%, 95%);
+	--color-border-base-light: hsl(223, 12%, 85%);
+	--color-border-base: hsl(223, 12%, 70%);
+	--color-border-base-dark: hsl(223, 12%, 65%);
+	--color-border-base-darker: hsl(223, 12%, 60%);
+}
